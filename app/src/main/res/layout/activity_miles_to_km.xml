@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".MilesToKmActivity">
+
+
+    <EditText
+        android:id="@+id/distanceInput"
+        android:layout_width="250dp"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:hint="@string/enter_a_distance"/>
+
+    <RadioGroup
+        android:id="@+id/unitSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/milesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/miles"
+            android:checked="true"
+            android:textSize="13sp"/>
+
+        <RadioButton
+            android:id="@+id/kilometersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kilometers"
+            android:textSize="13sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/resultOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

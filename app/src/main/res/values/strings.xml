@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TurnO</string>
+    <string name="error_input">Invalid input</string>
+    <string name="invalid">Invalid input. Please enter a valid number.</string>
+    <string name="Invalid_unit">Invalid unit. Please select either miles or kilometers.</string>
+    <string name="convert">Convert</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="enter_a_distance">Enter a distance</string>
+</resources>
